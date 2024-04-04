@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.page1 {
+  overflow: hidden;
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-size: 100%;
+  height: 100vh;
+}
+.bgi {
+  background-color: rgba(24, 22, 33, 0.7);
+}
+/* start navegation style */
+nav {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+}
+.logo h2 {
+  /* margin-left: 20px; */
+  width: 300px;
+  padding-left: 20px;
+}
+.navcontent {
+  width: 40%;
+  float: right;
+}
+
+.img {
+  width: 20%;
+  float: left;
+}
+
+.navtitle {
+  width: 40%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 5px;
+  color: white;
+}
+
+.navcontent ul {
+  list-style: none;
+}
+
+.navcontent li {
+  float: left;
+  /* margin: 0 20px; */
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 15px;
+  color: white;
+}
+
+.clear-float {
+  clear: both;
+}
+.page1 .sec1 {
+  text-align: center;
+  margin-top: 80px;
+  color: #ffff;
+  font-size: 45px;
+  span {
+    font-size: 20px;
+  }
+  a {
+    background-color: #01a3f1;
+    border-radius: 90px;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffff;
+  }
+}
+.page1 .container {
+  background-color: #181621;
+  overflow: auto;
+  margin-top: 75px;
+  padding: 15px 0;
+}
+.page1 .sec2 {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+}
+.page1 .container .sec2 .sm {
+  width: 25%;
+  text-align: center;
+  float: left;
+  padding: 6px 10px;
+  color: #ffff;
+}
+.page1 .container .sec2 .sm h2 {
+  margin: 10px 0;
+}
+.page1 .container .sec2 .sm p {
+  width: 80%;
+  margin: auto;
+}
+.page2 {
+  overflow: auto;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(32, 29, 46, 1);
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    margin: auto;
+    width: 70%;
+  }
+
+  font-size: 20px;
+}
+.page2 .bottons {
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      padding: 50px 20px;
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.page2 .sec {
+  p {
+    margin: 0;
+  }
+  text-align: start;
+  margin-top: 80px;
+  width: 33.3333%;
+  padding: 0px 50px;
+  float: left;
+  /* padd  */
+}
+#bot1 {
+  background-color: #01a3f1;
+  padding: 8px;
+  border-radius: 5px;
+}
+footer {
+  margin-top: 25px;
+    padding: 20px 20px;
+  background-color: rgba(24, 22, 33, 1);
+}
